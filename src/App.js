@@ -3,7 +3,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import WordBase from "./components/WordBase";
-import Usuario from "./components/Usuario";
+import User from "./components/User";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="sobre" element={<WordBase />}/>
-        <Route  path="usuario" element={<Usuario />}/>
+        <Route  path="user" element={<User />}/>
       </Routes>
     </BrowserRouter>
   );
