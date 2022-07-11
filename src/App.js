@@ -1,8 +1,19 @@
+import React from "react";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
+import Home from "./components/Home";
+import Sobre from "./components/Sobre";
+import Usuario from "./components/Usuario";
+
 function App() {
   return (
-    <>
-    <h1>English Vocabulary</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="sobre" element={<Sobre />}/>
+        <Route  path="usuario" element={<Usuario />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
