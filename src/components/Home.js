@@ -13,6 +13,9 @@ const Home = () =>{
           <li>
             <Link to="/usuario">Usuario</Link>
           </li>
+          <li>
+            <Link to="/memory-game">Jogo da Memória</Link>
+          </li>
         </ul>
       </nav>
     </div>
