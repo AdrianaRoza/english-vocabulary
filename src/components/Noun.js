@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const User = () => {
+const Noun = () => {
     return (
         <div>
-            <h1>Usuário</h1>
+            <h1>Substantivos</h1>
             <Link to="/">retornar a página inicial</Link>
         </div>
     );
 }
 
-export default User;
+export default Noun;

@@ -3,7 +3,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import WordBase from "./components/WordBase";
-import User from "./components/User";
+import Noun from "./components/Noun";
 import MemoryGame from "./memory-game/MemoryGame";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="sobre" element={<WordBase />}/>
-        <Route  path="user" element={<User />}/>
+        <Route path="word-base" element={<WordBase />}/>
+        <Route  path="noun" element={<Noun />}/>
         <Route  path="memory-game" element={<MemoryGame />}/>
       </Routes>
     </BrowserRouter>
